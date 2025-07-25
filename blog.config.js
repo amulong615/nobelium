@@ -1,6 +1,6 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
+  title: '阿木龙的个人主站',
+  author: '阿木龙',
   email: 'i@craigary.net',
   link: 'https://nobelium.vercel.app',
   description: 'This gonna be an awesome website.',
@@ -11,9 +11,9 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2018, // If leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
