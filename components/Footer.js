@@ -16,8 +16,9 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-center flex-wrap">
           <p>
-            © {from && from !== y ? `${from} - ` : ''}
-            {y} {BLOG.author} 的个人博客 版权所有 | 联系邮箱：i@your-email.com
+            © {from && from !== y ? `${from} —— ` : ''}
+            {y} {BLOG.author} 版权所有 amulong.cc | 联系邮箱：a.mulong@qq.com
+            蒙ICP备2024065688号-1
           </p>
         </div>
       </div>
